@@ -12,7 +12,7 @@ app.use(express.static("dist"));
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-    credentials: true, origin: true,
+    credentials: true, origin: "http://localhost:5173",
 }));
 // app.use("/uploads", express.static("uploads"))
 
