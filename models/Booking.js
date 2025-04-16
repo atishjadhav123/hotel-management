@@ -6,4 +6,4 @@ const bookingSchema = new mongoose.Schema({
     address: { type: String, required: true },
 
 }, { timestamps: true })
-module.exports = mongoose.model("booking", bookingSchema)
+module.exports = mongoose.model("booking", bookingSchema,)
